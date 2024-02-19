@@ -1,0 +1,39 @@
+div {
+    font-family: "Inter";
+    background-color: beige;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: center;
+    max-width: 300px;
+    box-shadow: 5px 5px 15px rgb(83, 83, 74);
+}
+
+#textbox {
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(193, 236, 253);
+}
+
+button:hover {
+    background-color: rgb(96, 208, 252);
+}
+button:active {
+    background-color: rgb(5, 184, 255);
+}
+
+input {
+    margin-top: 20px;
+}

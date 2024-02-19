@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion App</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <form>
+            <h1>Temperature conversion</h1>
+            <input type="number" id="textBox" value="0">
+            <br>
+
+            <input type="radio" id="toFahrenheit" name="unit">
+            <label for="toFahrenheit">Celsius ➡️ Fahrenheit</label>
+            <br>
+            <input type="radio" id="toCelsius" name="unit">
+            <label for="toCelsius">Fahrenheit ➡️ Celsius</label>
+            <br>
+            <button type="button" onclick="convert()">Submit</button>
+            <p id="result"></p>
+        </form>
+
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
